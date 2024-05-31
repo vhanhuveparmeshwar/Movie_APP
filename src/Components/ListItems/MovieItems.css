@@ -1,0 +1,38 @@
+.list-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.list-items div li {
+  color: black;
+  font-size: 22px;
+
+  list-style: none;
+  text-decoration: none;
+}
+
+.movie-img {
+  height: 380px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.list-items:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 1200px) {
+  .movie-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .movie-title {
+    font-size: 14px;
+  }
+}
